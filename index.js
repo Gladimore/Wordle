@@ -7,7 +7,7 @@ app.use(express.static("public"))
 
 const PORT = process.env.PORT || 3000;
 
-app.get('/month', (req, res) => {
+app.get('/word', (req, res) => {
     // Get the current date
     const today = new Date();
 
